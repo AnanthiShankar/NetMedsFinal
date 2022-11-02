@@ -33,7 +33,7 @@ public class CartPage1 {
 		WebElement EmptycartText;
 		@FindBy(xpath="//*[@id='itemid-347798']/div[2]/div[3]/div[2]/a[1]")
 		WebElement Removebutton1;
-		@FindBy(xpath="//*[@id='itemid-940242']/div[2]/div[3]/div[2]/a[1]")
+		@FindBy(xpath="//*[@id='itemid-889019']/div[2]/div[3]/div[2]/a[1]")
 		//*[@id="itemid-889019"]/div[2]/div[3]/div[2]/a[1]
 		//*[@id="itemid-940242"]/div[2]/div[3]/div[2]/a[1]
 		//*[@id="itemid-940242"]/div[2]/div[3]/div[2]/a[1]
