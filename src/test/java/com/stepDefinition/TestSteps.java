@@ -46,6 +46,7 @@ WebDriver driver;
 			loginpg.clickSignIn();
 			Thread.sleep(5000);
 			loginpg.enterTel("9686266442");
+			System.out.println("Entering the Phone number");
 			
 //			driver.findElement(By.linkText("Sign in / Sign up")).click();
 //		      
