@@ -17,11 +17,11 @@ import org.openqa.selenium.support.PageFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.CartPage1;
 import pages.LoginPage;
 import pages.BeautyPage;
-import pages.MedicinesPage;
+import pages.CartPage1;
 import pages.Logout;
+import pages.MedicinesPage;
 
 public class TestSteps {
 LoginPage loginpg;
@@ -32,7 +32,7 @@ Logout LP;
 	WebDriver driver;
 		@Given("User is on Netmeds homepage")
 		public void user_is_on_netmeds_homepage() {
-			 System.setProperty("webdriver.chrome.driver","C:\\drivers\\chromeDriver106\\chromedriver.exe");
+			 System.setProperty("webdriver.chrome.driver","C:\\Ana\\Drivers\\Chromedriver\\chromedriver.exe");
 			    driver=new ChromeDriver();
 				driver.get("https://www.netmeds.com/");
 				driver.manage().window().maximize();
@@ -43,12 +43,7 @@ Logout LP;
 			loginpg=new LoginPage(driver);
 			loginpg.clickSignIn();
 			Thread.sleep(5000);
-<<<<<<< HEAD
 			loginpg.enterTel("9121862790");
-=======
-			loginpg.enterTel("9686266442");
-			System.out.println("Entering the Phone number");
->>>>>>> 238d9cfd80011edf6b1d73558d8225ca30910388
 			
 //			driver.findElement(By.linkText("Sign in / Sign up")).click();
 //		      
@@ -243,10 +238,5 @@ Logout LP;
 
 
 
-<<<<<<< HEAD
 
 	}
-
-=======
-	}
->>>>>>> 238d9cfd80011edf6b1d73558d8225ca30910388

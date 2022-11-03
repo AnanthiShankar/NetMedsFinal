@@ -9,8 +9,11 @@ And user enters Otp and clicks on Verify
 Then Login is Successful if Otp is correct
 
 Scenario: Adding Products to cart and Reviewing
-
+And user add Medicine to cart
+And user adds beauty product to cart
 And Order is placed
 And User is on the cart page
 And User clicks on Proceed button and navigates to cartpage
 Then Removes Items in the cart and Logsout
+
+

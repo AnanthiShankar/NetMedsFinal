@@ -14,7 +14,7 @@ import org.junit.Test;
 	@CucumberOptions(
 			//To connect TestRunner and TestSteps class
 			features="Feature",
-			glue="StepDefinition",
+			glue="com.stepDefinition",
 			plugin = {
 					"com.aventstack.extentreports.cucumber.adapter.ExtentCucmberAdapter:"
 			})
