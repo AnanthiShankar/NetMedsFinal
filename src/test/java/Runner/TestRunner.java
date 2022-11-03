@@ -16,7 +16,7 @@ import org.junit.Test;
 			features="Feature",
 			glue="com.stepDefinition",
 			plugin = {
-					"com.aventstack.extentreports.cucumber.adapter.ExtentCucmberAdapter:"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 			})
 
 	public class TestRunner {
